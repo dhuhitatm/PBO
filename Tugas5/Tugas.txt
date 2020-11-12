@@ -1,0 +1,69 @@
+Dalam Aplikasi ini ada 5 Kelas dan 1 Driver/Main
+1. Mahasiswa
+2. Dosen
+3. Matakuliah
+4. KelasKuliah: 
+   1 KelasKuliah 
+     berelasi dengan 1 Matakuliah
+     berelasi dengan 1 Dosen
+     berelasi dengan banyak Mahasiswa 
+5. Data untuk menyimpan ke file objek
+     berisi ArrayList<Matakuliah>
+     berisi ArrayList<Dosen>
+     berisi ArrayList<Mahasiswa>
+     berisi ArrayList<KelasKuliah>
+
+Tugas Anda
+1. mencoba menjalankan aplikasi ini dengan main1
+   untuk:
+     membuat contoh data
+     menampilkan
+     dan menyimpan ke file
+2. mencoba menjalankan aplikasi ini dengan main2
+   untuk:
+     mengambil data dari file
+     menampilkannya
+3. mencoba menjalankan aplikasi ini dengan main3
+   untuk:
+     modifikasi data mahasiswa
+     menampilkannya
+4. mencoba menjalankan aplikasi ini dengan main4
+   untuk:
+     menampilkan matakuliah yg diajar dosen tertentu
+     menampilkan matakuliah yg diambil mahasiswa tertentu
+5. buat main5 dengan menu
+
+   MENU
+   1. Daftar Matakuliah
+   2. Daftar Dosen
+   3. Daftar Mahasiswa
+   4. Daftar Kelas
+   5. Keluar/Selesai
+
+   Bila dipilih 1,2 atau 3 
+
+   Ditampilkan data/daftarnya lalu ditampilkan menu
+   MENU
+   1. Tambah Data
+   2. Ubah Data
+   3. Kembali
+   
+   Bila dipilih 4 
+   Ditampilkan data/daftarnya lalu ditampilkan menu
+   MENU
+   1. Pilih Kelas
+   2. Kembali
+
+   Ketika sebuah kelas terpilih, ditampilkan 
+   daftar mahasiswanya, lalu ditampilkan menu
+   MENU
+   1. Tambah Mahasiswa
+   2. Kembali
+
+   Ketika dipilih tambah mahasiswa,
+   ditampilkan daftar mahasiswa, lalu dipilih
+   nomor urut/nim mahasiswa yang mau ditambahkan
+
+   
+
+
